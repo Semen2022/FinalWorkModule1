@@ -47,13 +47,44 @@ table {
 
 /* подключение шрифтов START  */
 
+@font-face {
+	font-family: "OpenSans";
+	src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: "OpenSans";
+	src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+	font-weight: 700;
+	font-style: normal;
+}
 
 /* подключение шрифтов END  */
 
 
 /* общие стили для проекта START */
 
+html, body {
+	box-sizing: border-box;
+
+	background-color: blueviolet;
+	font-family: "OpenSans", "Arial", "Helvetica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+}
+
+.wrapper {
+
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px 0;
+	margin: 0 auto;
+}
 
 
 /* общие стили для проекта END */
@@ -61,6 +92,11 @@ table {
 
 /* стили для head START */
 
+
+.logo {
+	width: 179px;
+	height: 32px;
+}
 
 
 /* стили для head END */
