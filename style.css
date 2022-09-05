@@ -56,7 +56,7 @@ table {
 
 @font-face {
 	font-family: "OpenSans";
-	src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+	src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
 	font-weight: 700;
 	font-style: normal;
 }
@@ -68,36 +68,86 @@ table {
 
 html, body {
 	box-sizing: border-box;
-
-	background-color: blueviolet;
+	
 	font-family: "OpenSans", "Arial", "Helvetica", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 16px;
+	color: #0f0d0e;
+	background-color: blueviolet; /* убрать по окончании */
 }
 
 .wrapper {
-
-}
-
-.container {
 	max-width: 1200px;
 	padding: 0 15px 0;
 	margin: 0 auto;
 }
-
 
 /* общие стили для проекта END */
 
 
 /* стили для head START */
 
-
-.logo {
-	width: 179px;
-	height: 32px;
+.header {
+	position: relative;
+	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+	height:450px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #45504c;
+	z-index: 1;
 }
 
+.header::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	width: 100%;
+	top: 0;
+	height: 100%;
+	background-color: rgba(0, 0 , 0, 0.6);
+	z-index: -1;
+}  
+
+.header__container {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo__image {
+	margin: 29px 0 0 3px;
+	width: 179px;
+}
+
+.header__menu {
+	margin-top: 46px;
+}
+
+.menu__list {
+	display: flex;
+	gap: 35px;
+	font-size: 13px;
+	color: #ffffff;
+}
+
+.menu__item {
+	text-transform: uppercase;
+}
+
+.header__title {
+	max-width: 687px;
+	margin: 105px auto 0 auto;
+	text-align: center;
+	font-family: "OpenSans", "Arial", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 45px;
+	line-height: 1.67;
+	text-transform: uppercase;
+} 
 
 /* стили для head END */
 
