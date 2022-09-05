@@ -42,6 +42,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*, *::after, *::before{
+	box-sizing: inherit;
+}
+
 /* сброс стилей по умолчанию END */
 
 
@@ -66,9 +70,10 @@ table {
 
 /* общие стили для проекта START */
 
-html, body {
+ html, body {
 	box-sizing: border-box;
-	
+	margin: 0;
+	padding: 0;
 	font-family: "OpenSans", "Arial", "Helvetica", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -91,9 +96,9 @@ html, body {
 .header {
 	position: relative;
 	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
-	height:450px;
+	height:452px;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center top;
 	background-color: #45504c;
 	z-index: 1;
 }
@@ -110,14 +115,12 @@ html, body {
 }  
 
 .header__container {
-	max-width: 1170px;
-	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
 
 .logo__image {
-	margin: 29px 0 0 3px;
+	margin: 30px 0 0 3px;
 	width: 179px;
 }
 
@@ -127,13 +130,13 @@ html, body {
 
 .menu__list {
 	display: flex;
-	gap: 35px;
-	font-size: 13px;
-	color: #ffffff;
+	gap: 35px;	
 }
 
 .menu__item {
 	text-transform: uppercase;
+	font-size: 13px;
+	color: #ffffff;
 }
 
 .header__title {
@@ -150,6 +153,12 @@ html, body {
 } 
 
 /* стили для head END */
+
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+
 
 
 /* стили для main START */
