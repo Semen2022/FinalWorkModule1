@@ -164,12 +164,16 @@ table {
 .main {
 	margin-top: 4px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	gap: 118px;
 }
 
-.main__posts {
-	
-}
+	/* -- стили для левой колонки START
+			main__posts -- */
+
+/* пока не пригодился
+.main__posts {}
+*/
 
 .main__post_container {
 	margin-top: 60px;
@@ -188,9 +192,9 @@ table {
 	max-width: 370px;
 }
 
-.post__header {
-
-}
+/* не пригодился
+.post__header {}
+*/
 
 .post_tags {
 	display: inline-block;
@@ -252,6 +256,82 @@ table {
 	display: inline-block;
 	margin-top: 9px;
 }
+
+		/* -- стили для левой колонки END
+			main__posts -- */
+
+
+		/* -- стили для правой колонки START
+			main__additional-info -- */
+
+.main__additional-info {
+	margin-top: 50px;
+	flex-basis: 272px;
+}
+		
+.main__additional-info_title {
+	text-align: center;
+	margin:0 auto 30px 6px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 29.15px;
+	text-transform: uppercase;
+	color: #0f0d0e;
+}
+
+.main__additional-info_title::after {
+	content: "";
+	display: block;
+	margin: 6px auto 0 auto;
+	width: 67px;
+	border-bottom: 3px solid rgba(181, 159, 91, 0.4);
+}
+
+.additional-info_new-post {
+	margin-bottom: 19px;
+	display: flex;
+	gap: 19px;
+}
+
+/* пока не пригодился 
+.new-post_image {}
+*/
+
+.new-post_date {
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+.new-post_title_text {
+	margin-top: 3px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+
+
+
+
+/*
+.search_button {
+	width: 47px;
+	height: 50px;
+	background-color: #b59f5b;
+	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: left 20px center;
+}
+*/
+		
+			/* -- стили для правой колонки END
+			.main__additional-info -- */
 
 /* стили для main END */
 
