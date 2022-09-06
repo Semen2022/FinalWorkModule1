@@ -268,6 +268,10 @@ table {
 	margin-top: 50px;
 	flex-basis: 272px;
 }
+
+.main__additional-info_new-posts {
+	margin-bottom: 60px;
+}
 		
 .main__additional-info_title {
 	text-align: center;
@@ -314,21 +318,21 @@ table {
 	text-transform: uppercase;
 }
 
+.field_search {
+	width: 223px;
+	height: 49px;
+}
 
-
-
-
-/*
 .search_button {
-	width: 47px;
-	height: 50px;
+	width: 44px;
+	height: 49px;
 	background-color: #b59f5b;
 	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
 	background-repeat: no-repeat;
-	background-size: 25px;
-	background-position: left 20px center;
+	background-size: 18px;
+	background-position: center center;
 }
-*/
+
 		
 			/* -- стили для правой колонки END
 			.main__additional-info -- */
