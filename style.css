@@ -79,7 +79,6 @@ table {
 	font-style: normal;
 	font-size: 16px;
 	color: #0f0d0e;
-	background-color: blueviolet; /* убрать по окончании */
 }
 
 .wrapper {
@@ -163,7 +162,7 @@ table {
 
 .main {
 	margin-top: 4px;
-	margin-bottom: 64px;
+	margin-bottom: 68px;
 	display: flex;
 	justify-content: flex-start;
 	gap: 118px;
@@ -497,15 +496,45 @@ table {
 	vertical-align: super;
 }
 
-
-			/* -- стили для правой колонки END
+/* -- стили для правой колонки END
 			.main__additional-info -- */
+
 
 /* стили для main END */
 
 
+
 /* стили для footer START */
 
+.social__links {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 27px;
+	flex-basis: 100%;
+	margin-left: 5px;
+	justify-content: center;
+	align-items: center;
+	height: 82px;
+	background-color: #f4f7f6;
+}
 
+.social__links_dribble,
+.social__links_pinterest,
+.social__links_tumblr {
+	width: 20px;
+}
+
+.copyright {
+	margin-top: 70px;
+	text-align: center;
+}
+
+.copyright_link {
+	margin-left: 13px;
+	font-size: 12px;
+	font-weight: bold;	
+	color: #999999;
+	text-decoration: none;
+}
 
 /* стили для footer END */
