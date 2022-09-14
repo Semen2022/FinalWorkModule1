@@ -9,17 +9,17 @@
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
+        <div class="wrapper" id="main_page">
             <div class="header__container ">
                 <img class="logo__image" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="logo Noemi">
                 <nav class="header__menu">
                     <ul class="menu__list">
-                        <li class="menu__item">Главная</li>
-                        <li class="menu__item">Посты</li>
-                        <li class="menu__item">Статьи</li>
-                        <li class="menu__item">Теги</li>
-                        <li class="menu__item">Темы</li>
-                        <li class="menu__item">Контакты</li>
+                        <li class="menu__item"><a class="menu__item_link" href="#main_page">Главная</a></li>
+                        <li class="menu__item"><a class="menu__item_link" href="#new_posts">Посты</a></li>
+                        <li class="menu__item"><a class="menu__item_link" href="#posts">Статьи</a></li>
+                        <li class="menu__item"><a class="menu__item_link" href="#tags">Теги</a></li>
+                        <li class="menu__item"><a class="menu__item_link" href="#thems">Темы</a></li>
+                        <li class="menu__item"><a class="menu__item_link" href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -29,7 +29,7 @@
         </div>
     </header>
     <main class="main wrapper">
-        <section class="main__posts"> 
+        <section class="main__posts" id="posts"> 
             <!-- Первый пост начало -->
             <article class="main__post_container">
                 <img class="post_image" 
@@ -39,7 +39,11 @@
                     <div class="post__header">
                         <h2 class="post_tags">Travel</h2>
                         <h2 class="post_tags">Health</h2>
-                        <h3 class="post_title">10 мест, ради которых стоит проснуться на рассвете</h3>
+                        <h3 class="post_title">
+                            <a class="post_title_link" href="#0">
+                                10 мест, ради которых стоит проснуться на рассвете
+                            </a>
+                        </h3>
                     </div>
                     <div class="post_time" datetime="2019-06-10">
                         10 июня 2019
@@ -64,7 +68,11 @@
                     <div class="post__header">
                         <h2 class="post_tags">Health</h2>
                         <h2 class="post_tags">Lifestyle</h2>
-                        <h3 class="post_title">Йога для начинающих в домашних условиях</h3>
+                        <h3 class="post_title">
+                            <a class="post_title_link" href="#0">
+                                Йога для начинающих в домашних условиях
+                            </a>
+                        </h3>
                     </div>
                     <div class="post_time" datetime="2019-06-10">
                         10 июня 2019
@@ -87,7 +95,11 @@
                 <div class="post__wrapper">
                     <div class="post__header">
                         <h2 class="post_tags">music</h2>
-                        <h3 class="post_title">Лучшие музыкальные фестивали этого лета</h3>
+                        <h3 class="post_title">
+                            <a class="post_title_link" href="#0">
+                                Лучшие музыкальные фестивали этого лета
+                            </a>
+                        </h3>
                     </div>
                     <div class="post_time" datetime="2019-06-10">
                         10 июня 2019
@@ -114,7 +126,11 @@
                     <div class="post__header">
                         <h2 class="post_tags">Lifestyle</h2> <!--тут в макете ошибка, не "L'Y'festyle"-->
                         <h2 class="post_tags">Food</h2>
-                        <h3 class="post_title">Наукоёмкий подход к кулинарии</h3>
+                        <h3 class="post_title">
+                            <a class="post_title_link" href="#0">
+                                Наукоёмкий подход к кулинарии
+                            </a>
+                        </h3>
                     </div>
                     <div class="post_time" datetime="2019-06-10">
                         10 июня 2019
@@ -139,7 +155,11 @@
                         <h2 class="post_tags">Lifestyle</h2>
                         <h2 class="post_tags">Interior</h2>
                         <h2 class="post_tags">Art</h2>
-                        <h3 class="post_title">Делаем модные принты на подушках для интерьера</h3>
+                        <h3 class="post_title">
+                            <a class="post_title_link" href="#0">
+                                Делаем модные принты на подушках для интерьера
+                            </a>
+                        </h3>
                     </div>
                     <div class="post_time" datetime="2019-06-10">
                         10 июня 2019
@@ -164,7 +184,11 @@
                     <div class="post__header">
                         <h2 class="post_tags">Travel</h2>
                         <h2 class="post_tags">Lifestyle</h2>
-                        <h3 class="post_title">Как первый раз отправиться в горы?</h3>
+                        <h3 class="post_title">
+                            <a class="post_title_link" href="#0">
+                                Как первый раз отправиться в горы?
+                            </a>
+                        </h3>
                     </div>
                     <div class="post_time" datetime="2019-06-10">
                         10 июня 2019
@@ -190,7 +214,11 @@
                     <div class="post__header">
                         <h2 class="post_tags">Lifestyle</h2>
                         <h2 class="post_tags">Food</h2>
-                        <h3 class="post_title">Наукоёмкий подход к кулинарии</h3>
+                        <h3 class="post_title">
+                            <a class="post_title_link" href="#0">
+                                Наукоёмкий подход к кулинарии
+                            </a>
+                        </h3>
                     </div>
                     <div class="post_time" datetime="2019-06-10">
                         10 июня 2019
@@ -206,7 +234,7 @@
         </section>
         
         <aside class="main__additional-info">
-            <section class="main__additional-info_new-posts">
+            <section class="main__additional-info_new-posts" id="new_posts">
                <h2 class="main__additional-info_title">
                     Новые посты
                </h2>
@@ -217,7 +245,11 @@
                     </div>
                     <div class="new-post_title">
                         <span class="new-post_date">14 июня 2019</span>
-                        <h3 class="new-post_title_text">10 мест, ради которых стоит проснуться</h3>
+                        <h3 class="new-post_title_text">
+                            <a class="new-post_title_link" href="#0">
+                                10 мест, ради которых стоит проснуться
+                            </a>
+                        </h3>
                     </div>
                 </article>
                 <!-- коротко о первом посте окончание --> 
@@ -228,7 +260,11 @@
                     </div>
                     <div class="new-post_title">
                         <span class="new-post_date">14 июня 2019</span>
-                        <h3 class="new-post_title_text">Йога для домашних</h3>
+                        <h3 class="new-post_title_text">
+                            <a class="new-post_title_link" href="#0">
+                                Йога для домашних
+                            </a>
+                        </h3>
                     </div>
                 </article>
                 <!-- коротко о втором посте окончание --> 
@@ -239,7 +275,11 @@
                     </div>
                     <div class="new-post_title">
                         <span class="new-post_date">14 июня 2019</span>
-                        <h3 class="new-post_title_text">Как мы превратили классное место в балкон</h3>
+                        <h3 class="new-post_title_text">
+                            <a class="new-post_title_link" href="#0">
+                                Как мы превратили классное место в балкон
+                            </a>
+                        </h3>
                     </div>
                 </article>
                 <!-- коротко о третьем посте окончание --> 
@@ -250,7 +290,11 @@
                     </div>
                     <div class="new-post_title">
                         <span class="new-post_date">14 июня 2019</span>
-                        <h3 class="new-post_title_text">Кулинарный подход к науке</h3>
+                        <h3 class="new-post_title_text">
+                            <a class="new-post_title_link" href="#0">
+                                Кулинарный подход к науке
+                            </a>
+                        </h3>
                     </div>
                 </article>
                 <!-- коротко о четвертом посте окончание --> 
@@ -261,7 +305,11 @@
                     </div>
                     <div class="new-post_title">
                         <span class="new-post_date">14 июня 2019</span>
-                        <h3 class="new-post_title_text">лучшие прически для распущенных волос</h3>
+                        <h3 class="new-post_title_text">
+                            <a class="new-post_title_link" href="#0">
+                                Лучшие прически для распущенных волос
+                            </a>
+                        </h3>
                     </div>
                 </article>
                 <!-- коротко о пятом посте окончание --> 
@@ -282,7 +330,7 @@
                     <button class="mailing_button" type="submit">Подписаться</button>
                 </form>
             </section>
-            <section class="additional-info_tags">
+            <section class="additional-info_tags" id="tags">
                 <h2 class="additional-info_tags_title">Теги</h2>
                 <div class="additional-info_tags_container">
                     <a href="#0" class="tag_item">Fashion</a>
@@ -295,7 +343,7 @@
                     <a href="#0" class="tag_item">Health</a>
                 </div>
             </section>
-            <section class="additional-info_themes">
+            <section class="additional-info_themes" id="thems">
                 <h2 class="additional-info_themes_title">Темы</h2>
                 <div class="additional-info_themes_container">
                     <a href="#0" class="theme_item">
@@ -328,7 +376,7 @@
         </aside>
     </main>
     <footer class="footer wrapper">
-        <address class="social__links">
+        <address class="social__links" id="contacts">
             <a class="social__links_dribble" href="#0">
                 <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg">
             </a>

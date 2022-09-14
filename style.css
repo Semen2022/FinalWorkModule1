@@ -78,7 +78,7 @@ table {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 16px;
-	color: #0f0d0e;
+	color: #6f7094;
 }
 
 .wrapper {
@@ -124,7 +124,7 @@ table {
 }
 
 .header__menu {
-	margin-top: 46px;
+	margin-top: 43px;
 }
 
 .menu__list {
@@ -133,8 +133,14 @@ table {
 }
 
 .menu__item {
+	list-style-type: none;
+}
+
+.menu__item_link {
+	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 13px;
+	font-weight: 400;
 	color: #ffffff;
 }
 
@@ -214,14 +220,18 @@ table {
 .post_title {
 	margin-top: 8px;
 	max-width: 330px;
+}
+
+.post_title_link {	
 	text-transform: uppercase;
+	text-decoration: none;
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: bold;
 	color: #0f0d0e;
 }
 
-.post_title:hover {
+.post_title_link:hover {
 	color: #b59f5b;
 }
 
@@ -270,12 +280,12 @@ table {
 }
 
 .main__additional-info_new-posts {
-	margin-bottom: 60px;
+	margin-bottom: 58px;
 }
 		
 .main__additional-info_title {
 	text-align: center;
-	margin:0 auto 30px 6px;
+	margin:0 auto 28px 6px;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 29.15px;
@@ -292,7 +302,7 @@ table {
 }
 
 .additional-info_new-post {
-	margin-bottom: 19px;
+	margin-bottom: 20px;
 	display: flex;
 	gap: 19px;
 }
@@ -311,12 +321,19 @@ table {
 
 .new-post_title_text {
 	margin-top: 3px;
+}
+
+.new-post_title_link {
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 700;
 	color: #000000;
+	text-decoration: none;
 	text-transform: uppercase;
+}
 
+.new-post_title_link:hover {
+	color: #b59f5b;
 }
 
 .additional-info_search {
