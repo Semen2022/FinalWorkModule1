@@ -450,17 +450,20 @@ html, body {
 	row-gap: 5px;	
 }
 
-.tag_item {
+.tag-item {
 	padding: 8px 13px 5px;
-	border: 3px solid #eeeeee ;
+	border: 3px solid #eeeeee;
 	font-size: 12px;
 	font-weight: bold;
 	color: #0f0d0e;
-	text-decoration: none;
 	text-transform: uppercase;
 }
 
-.tag_item:hover {
+.tag-link {	
+	text-decoration: none;
+}
+
+.tag-item:hover {
 	color: #000000;
 	border: 3px solid #b59f5b;
 }
@@ -488,20 +491,23 @@ html, body {
 	row-gap: 15px;	
 }
 
-.theme_item {
+.theme-item {
 	padding-bottom: 13px;
 	border-bottom: 1px solid #eeeeee ;
 	font-size: 14px;
 	font-weight: bold;
 	color: #0f0d0e;
+}
+
+.theme-link {
 	text-decoration: none;
 }
 
-.theme_item:hover {
+.theme-link:hover {
 	color: #b59f5b;
 }
 
-.theme_item_count {
+.theme-link-count {
 	font-size: 12px;
 	font-weight: bold;
 	color: #b59f5b;
