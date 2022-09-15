@@ -324,16 +324,24 @@
             <!-- секция поискового поля начало -->
             <section class="additional-info_search">
                 <form class="form_search" action="#0" method="get">
-                    <input class="field_search" type="text" placeholder="Найти..." required>
-                    <button class="search_button" type="submit"></button>
+                    <label class="form_search_label">
+                        <span class="form_search_field visually-hidden">Поле ввода данных для поиска</span>
+                        <input class="field_search" type="text" placeholder="Найти..." required>
+                    </label>
+                    <button class="search_button" type="submit">
+                        <span class="visually-hidden">Нажать на кнопку для начала поиска</span>
+                    </button>
                 </form>
             </section>
             <!-- секция поискового поля окнчание -->
 
             <section class="additional-info_mailing">
                 <h2 class="additional-info_mailing_title">Рассылка</h2>
-                <form action="#0" method="get">
-                    <input class="mailing_field" type="email" placeholder="Ваш email-адрес" required>
+                <form class="form-mailing" action="#0" method="get">
+                    <label class="form-mailing-label">
+                        <span class="form_mailing_field visually-hidden">Поле ввода электронного адреса для подписки</span>
+                        <input class="mailing_field" type="email" placeholder="Ваш email-адрес" required>
+                    </label>
                     <button class="mailing_button" type="submit">Подписаться</button>
                 </form>
             </section>
@@ -384,19 +392,36 @@
     </main>
     <footer class="footer wrapper">
         <address class="social__links" id="contacts">
-            <a class="social__links_dribble" href="#0">
-              <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg"
-                   alt="Иконка соцсети dribbble">
-            </a>
-            <a class="social__links_pinterest" href="#0">
-              <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg" 
-                   alt="Иконка соцсети pinterest">
-            </a>
-            <a class="social__links_tumblr" href="#0">
-              <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg"
-                   alt="Иконка соцсети tumblr">
-            </a>
-          </address>
+            <ul class="social-links-list">
+                <li class="social-link-item">
+                    <a class="social__links_dribble" href="#0">
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg"
+                            alt="Иконка соцсети dribbble">
+                        <span class="visually-hidden">
+                        Иконка социальной сети Вribbble
+                        </span>
+                    </a> 
+                </li>
+                <li class="social-link-item">
+                    <a class="social__links_pinterest" href="#0">
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg" 
+                                alt="Иконка соцсети pinterest">
+                        <span class="visually-hidden">
+                            Иконка социальной сети Pinterest
+                        </span>
+                    </a>
+                </li>
+                <li class="social-link-item">
+                    <a class="social__links_tumblr" href="#0">
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg"
+                                alt="Иконка соцсети tumblr">
+                        <span class="visually-hidden">
+                            Иконка социальной сети Pinterest
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </address>
         <div class="copyright">
             <a href="#0" class="copyright_link">Copyright © 2009–2019 City Blog LLC.</a>
         </div>

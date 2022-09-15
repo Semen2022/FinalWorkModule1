@@ -330,9 +330,22 @@ html, body {
 	min-height: 20px;
 	height: 48px;
 	padding-left: 19px;
-	background-color: #f4f7f6;
+	background-color: #f3f7f5;
 	outline: none;
 	border: unset;
+}
+
+.field_search:focus {
+	border: 1px solid #b59f5b;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	clip: rect(0 0 0 0 );
 }
 
 .search_button {
@@ -347,6 +360,8 @@ html, body {
 	background-repeat: no-repeat;
 	background-size: 18px;
 	background-position: center center;
+	font-size: 3px; /* для уменьшения контура обводки поля при 
+						переходе на это поле по "Tab" на странице */
 }
 
 .search_button:hover {
@@ -382,6 +397,7 @@ html, body {
 	height: 50px;
 	border: unset;
 	outline: unset;
+	background-color: #f3f7f5;
 }
 
 .mailing_field:focus {	
@@ -502,7 +518,7 @@ html, body {
 
 /* стили для footer START */
 
-.social__links {
+.social-links-list {
 	display: flex;
 	flex-wrap: nowrap;
 	gap: 27px;
@@ -514,9 +530,7 @@ html, body {
 	background-color: #f4f7f6;
 }
 
-.social__links_dribble,
-.social__links_pinterest,
-.social__links_tumblr {
+.social-link-item {
 	width: 20px;
 }
 
