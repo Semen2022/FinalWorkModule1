@@ -166,10 +166,10 @@ html, body {
 	gap: 30px;
 }
 
-.main__post_image {
-	display: inline-block;
-	max-width: 381px;
-	height: 292px;
+.post_image {
+	width: 381px;
+	min-height: 294px;
+	object-fit: contain;
 }
 
 .post__wrapper {
@@ -181,7 +181,6 @@ html, body {
 */
 
 .post_tags {
-	display: inline-block;
 	margin-right: 15px;
 	vertical-align: top;
 	text-transform: uppercase;
@@ -281,14 +280,16 @@ html, body {
 }
 
 .additional-info_new-post {
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 	display: flex;
 	gap: 19px;
 }
 
-/* пока не пригодился 
-.new-post_image {}
-*/
+.new-post-image {
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+}
 
 .new-post_date {
 	display: block;
