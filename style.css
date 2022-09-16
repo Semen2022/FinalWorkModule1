@@ -53,9 +53,9 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: "OpenSans", "Arial", "Helvetica", sans-serif;
-	font-weight: 400;
-	font-style: normal;
 	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
 	color: #0f0d0e;
 }
 
@@ -72,8 +72,8 @@ html, body {
 
 .header {
 	position: relative;
-	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
 	min-height:452px;
+	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-color: #43625c;
@@ -317,7 +317,7 @@ html, body {
 }
 
 .additional-info_search {
-	margin-bottom: 53px;
+	margin-bottom: 54px;
 }
 
 .form_search {
@@ -375,7 +375,7 @@ html, body {
 .additional-info_mailing_title {
 	text-align: center;
 	margin-right: 6px;
-	margin-bottom: 21px;
+	margin-bottom: 22px;
 	font-size: 14px;
 	line-height: 29.15px;
 	font-weight: bold;
@@ -423,7 +423,7 @@ html, body {
 }
 
 .additional-info_tags {
-	margin-bottom: 58px;
+	margin-bottom: 59px;
 }
 
 .additional-info_tags_title {
