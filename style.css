@@ -152,8 +152,7 @@ html, body {
 	gap: 118px;
 }
 
-	/* -- стили для левой колонки START
-			main__posts -- */
+	/* -- стили для левой колонки START	main-posts -- */
 
 .main-post-container {
 	margin-top: 60px;
@@ -171,10 +170,6 @@ html, body {
 .post-wrapper {
 	max-width: 370px;
 }
-
-/* не пригодился
-.post__header {}
-*/
 
 .post-tags {
 	margin-right: 15px;
@@ -241,12 +236,10 @@ html, body {
 	margin-top: 9px;
 }
 
-		/* -- стили для левой колонки END
-			main__posts -- */
+		/* -- стили для левой колонки END main-posts -- */
 
 
-		/* -- стили для правой колонки START
-			main__additional-info -- */
+		/* -- стили для правой колонки START .main-additional-info -- */
 
 .main-additional-info {
 	margin-top: 50px;
@@ -510,13 +503,9 @@ html, body {
 	color: #b59f5b;
 	vertical-align: super;
 }
-
-/* -- стили для правой колонки END
-			.main__additional-info -- */
-
+/* -- стили для правой колонки END .main-additional-info -- */
 
 /* стили для main END */
-
 
 
 /* стили для footer START */
