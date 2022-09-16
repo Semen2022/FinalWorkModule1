@@ -91,30 +91,30 @@ html, body {
 	z-index: -1;
 }  
 
-.header__container {
+.header-container {
 	display: flex;
 	justify-content: space-between;
 }
 
-.logo__image {
+.logo-image {
 	margin: 30px 0 0 3px;
 	width: 179px;
 }
 
-.header__menu {
+.header-menu {
 	margin-top: 43px;
 }
 
-.menu__list {
+.menu-list {
 	display: flex;
 	gap: 35px;	
 }
 
-.menu__item {
+.menu-item {
 	list-style-type: none;
 }
 
-.menu__item_link {
+.menu-item-link {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 13px;
@@ -122,11 +122,11 @@ html, body {
 	color: #ffffff;
 }
 
-.menu__item:hover {
+.menu-item:hover {
 	text-decoration: underline;
 }
 
-.header__title {
+.header-title {
 	max-width: 687px;
 	margin: 105px auto 0 auto;
 	text-align: center;
@@ -155,24 +155,20 @@ html, body {
 	/* -- стили для левой колонки START
 			main__posts -- */
 
-/* пока не пригодился
-.main__posts {}
-*/
-
-.main__post_container {
+.main-post-container {
 	margin-top: 60px;
 	display: flex;
 	flex-basis: 778px;
 	gap: 30px;
 }
 
-.post_image {
+.post-image {
 	width: 381px;
 	min-height: 294px;
 	object-fit: contain;
 }
 
-.post__wrapper {
+.post-wrapper {
 	max-width: 370px;
 }
 
@@ -180,7 +176,7 @@ html, body {
 .post__header {}
 */
 
-.post_tags {
+.post-tags {
 	margin-right: 15px;
 	vertical-align: top;
 	text-transform: uppercase;
@@ -189,17 +185,17 @@ html, body {
 	color: #b59f5b;
 }
 
-.post_tags:hover {
+.post-tags:hover {
 	color: #b59f5b;
 	text-decoration: underline;
 }
 
-.post_title {
-	margin-top: 8px;
+.post-title {
+	margin-top: 7px;
 	max-width: 330px;
 }
 
-.post_title_link {	
+.post-title-link {	
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 20px;
@@ -208,11 +204,11 @@ html, body {
 	color: #0f0d0e;
 }
 
-.post_title_link:hover {
+.post-title-link:hover {
 	color: #b59f5b;
 }
 
-.post_time {
+.post-time {
 	display: block;
 	margin-top: 16px;
 	font-size: 12px;
@@ -221,14 +217,14 @@ html, body {
 	color: #888888;
 }
 
-.post_author {
+.post-author {
 	margin-left: 9px;
 	color: #000000;
 	font-weight: bold;
 
 }
 
-.post_text {
+.post-text {
 	margin-top: 34px;
 	font-size: 15px;
 	font-weight: 400;
@@ -240,7 +236,7 @@ html, body {
 		чтобы решить вопрос с несоответствием промежутков 
 		между строками в одном текте поста. */
 
-.necessary_interval_after {
+.necessary-interval-after {
 	display: inline-block;
 	margin-top: 9px;
 }
@@ -252,16 +248,16 @@ html, body {
 		/* -- стили для правой колонки START
 			main__additional-info -- */
 
-.main__additional-info {
+.main-additional-info {
 	margin-top: 50px;
 	flex-basis: 272px;
 }
 
-.main__additional-info_new-posts {
+.main-additional-info-new-posts {
 	margin-bottom: 58px;
 }
 		
-.main__additional-info_title {
+.main-additional-info-title {
 	text-align: center;
 	margin:0 auto 28px 6px;
 	font-weight: bold;
@@ -271,7 +267,7 @@ html, body {
 	color: #0f0d0e;
 }
 
-.main__additional-info_title::after {
+.main-additional-info-title::after {
 	content: "";
 	display: block;
 	margin: 6px auto 0 auto;
@@ -279,7 +275,7 @@ html, body {
 	border-bottom: 3px solid rgba(181, 159, 91, 0.4);
 }
 
-.additional-info_new-post {
+.additional-info-new-post {
 	margin-bottom: 22px;
 	display: flex;
 	gap: 19px;
@@ -291,7 +287,7 @@ html, body {
 	object-fit: contain;
 }
 
-.new-post_date {
+.new-post-date {
 	display: block;
 	font-size: 12px;
 	font-weight: normal;
@@ -299,11 +295,11 @@ html, body {
 	color: rgba(0, 0, 0, 0.54);
 }
 
-.new-post_title_text {
+.new-post-title-text {
 	margin-top: 3px;
 }
 
-.new-post_title_link {
+.new-post-title-link {
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 700;
@@ -312,21 +308,21 @@ html, body {
 	text-transform: uppercase;
 }
 
-.new-post_title_link:hover {
+.new-post-title-link:hover {
 	color: #b59f5b;
 }
 
-.additional-info_search {
+.additional-info-search {
 	margin-bottom: 54px;
 }
 
-.form_search {
+.form-search {
 	position: relative;
 	max-width: 223px;
 	min-width: 90px;
 }
 
-.field_search {
+.field-search {
 	width: 100%;
 	min-height: 20px;
 	height: 48px;
@@ -336,7 +332,7 @@ html, body {
 	border: unset;
 }
 
-.field_search:focus {
+.field-search:focus {
 	border: 1px solid #b59f5b;
 }
 
@@ -349,7 +345,7 @@ html, body {
 	clip: rect(0 0 0 0 );
 }
 
-.search_button {
+.search-button {
 	position: absolute;
 	top: 0;
 	right: -48px;
@@ -365,14 +361,14 @@ html, body {
 						переходе на это поле по "Tab" на странице */
 }
 
-.search_button:hover {
+.search-button:hover {
 	background-color: #323232;
 }
-.additional-info_mailing {
+.additional-info-mailing {
 	margin-bottom: 50px;
 }
 
-.additional-info_mailing_title {
+.additional-info-mailing-title {
 	text-align: center;
 	margin-right: 6px;
 	margin-bottom: 22px;
@@ -383,7 +379,7 @@ html, body {
 	text-transform: uppercase;
 }
 
-.additional-info_mailing_title::after {
+.additional-info-mailing-title::after {
 	content: "";
 	display: block;
 	margin: 4px auto 0 auto;
@@ -391,7 +387,7 @@ html, body {
 	border-bottom: 3px solid rgba(181, 159, 91, 0.4);
 }
 
-.mailing_field {
+.mailing-field {
 	padding-left: 18px;
 	margin-bottom: 17px;
 	width: 100%;
@@ -401,11 +397,11 @@ html, body {
 	background-color: #f3f7f5;
 }
 
-.mailing_field:focus {	
+.mailing-field:focus {	
 	border: 1px solid #b59f5b;
 }
 
-.mailing_button {
+.mailing-button {
 	width: 100%;
 	height: 50px;
 	font-size: 14px;
@@ -418,15 +414,15 @@ html, body {
 	text-transform: uppercase;
 }
 
-.mailing_button:hover {
+.mailing-button:hover {
 	background-color: #323232;
 }
 
-.additional-info_tags {
+.additional-info-tags {
 	margin-bottom: 59px;
 }
 
-.additional-info_tags_title {
+.additional-info-tags-title {
 	margin-bottom: 24px;
 	text-align: center;
 	font-size: 14px;
@@ -436,7 +432,7 @@ html, body {
 	text-transform: uppercase;
 }
 
-.additional-info_tags_title::after {
+.additional-info-tags-title::after {
 	content: "";
 	display: block;
 	margin: 5px auto 0 auto;
@@ -444,7 +440,7 @@ html, body {
 	border-bottom: 3px solid rgba(181, 159, 91, 0.4);
 }
 
-.additional-info_tags_container {
+.additional-info-tags-container {
 	display: flex;
 	flex-wrap: wrap;
 	column-gap: 8px ;
@@ -469,7 +465,7 @@ html, body {
 	border: 3px solid #b59f5b;
 }
 
-.additional-info_themes_title {
+.additional-info-themes-title {
 	margin: 0 auto 23px 5px;
 	text-align: center;
 	font-size: 14px;
@@ -478,7 +474,7 @@ html, body {
 	text-transform: uppercase;
 }
 
-.additional-info_themes_title::after {
+.additional-info-themes-title::after {
 	content: "";
 	display: block;
 	margin: 12px auto 0 auto;
@@ -486,7 +482,7 @@ html, body {
 	border-bottom: 3px solid rgba(181, 159, 91, 0.4);
 }
 		
-.additional-info_themes_container {
+.additional-info-themes-container {
 	display: flex;
 	flex-direction: column;
 	row-gap: 15px;	
@@ -546,7 +542,7 @@ html, body {
 	text-align: center;
 }
 
-.copyright_link {
+.copyright-link {
 	margin-left: 13px;
 	font-size: 12px;
 	font-weight: bold;	
