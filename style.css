@@ -165,6 +165,7 @@ html, body {
 	width: 381px;
 	min-height: 294px;
 	object-fit: contain;
+	background-color: #cecece;
 }
 
 .post-wrapper {
@@ -278,6 +279,7 @@ html, body {
 	width: 70px;
 	height: 70px;
 	object-fit: contain;
+	background-color: #cecece;
 }
 
 .new-post-date {
